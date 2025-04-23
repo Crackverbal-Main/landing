@@ -8,7 +8,7 @@ import FAQ from '@/components/FAQ'
 
 export default function Home() {
   return (
-    <>
+    <div className="min-h-screen">
       <HeroSection />
       <SchoolLogos />
       <TailoredPlans />
@@ -16,6 +16,6 @@ export default function Home() {
       <SuccessStories />
       <SmartTools />
       <FAQ />
-    </>
+    </div>
   )
 }
